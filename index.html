@@ -1,81 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Homepage</title>
+    <title>Die Geschichte der Harfenspielenden Elfe</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            line-height: 1.6;
             background-color: #f4f4f4;
             color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            margin: 0;
-            padding: 0;
-            background: #444;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
             margin: 0;
             padding: 0;
         }
-        nav ul li {
-            margin: 0;
-            padding: 0;
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            display: block;
+        h1 {
+            color: #2c3e50;
         }
-        nav ul li a:hover {
-            background: #555;
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
         }
-        main {
-            padding: 2rem;
-            text-align: center;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        .story {
+            text-align: justify;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Simple Homepage</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Hello, World!</h2>
-        <p>This is a simple homepage created with HTML and CSS. Feel free to customize it!</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Simple Homepage. All Rights Reserved.</p>
-    </footer>
+    <div class="container">
+        <h1>Die Geschichte der Harfenspielenden Elfe</h1>
+        <img src="elfe.jpg" alt="Eine Elfe, die Harfe spielt">
+        <div class="story">
+            <p>
+                Tief verborgen im Tal der Melodien lebte eine Elfe namens Lyriel, deren Harfenspiel die Herzen aller berührte, die es hörten. 
+                Ihr Zuhause lag an einem glitzernden See, dessen Wellen im Rhythmus ihrer Melodien tanzten. 
+                Die Tiere des Waldes versammelten sich oft, um Lyriels Lieder zu lauschen, und selbst die Bäume neigten ihre Äste, 
+                als ob sie von der Musik verzaubert wären.
+            </p>
+            <p>
+                Eines Tages, als der Mond hoch am Himmel stand, spürte Lyriel eine Disharmonie in der Luft. 
+                Ein Schatten legte sich über das Tal, und die magische Verbindung zwischen ihr und der Natur schien bedroht. 
+                Mit ihrer Harfe als einziger Gefährtin machte sie sich auf den Weg, die Ursache der Störung zu finden.
+            </p>
+            <p>
+                Ihre Reise führte sie zu den Nebelklippen, wo die uralte Windgöttin Aranea wachte. 
+                Aranea hatte die Harmonie gestört, da sie sich von der Welt vergessen fühlte. 
+                Lyriel spielte eine Melodie von solcher Schönheit, dass selbst die Göttin gerührt war. 
+                Mit den Klängen der Harfe heilte Lyriel die Disharmonie und brachte Frieden zurück in das Tal der Melodien.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
